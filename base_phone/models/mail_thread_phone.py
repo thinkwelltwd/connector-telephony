@@ -6,8 +6,8 @@
 from odoo import models
 
 
-class PhoneValidationMixin(models.AbstractModel):
-    _inherit = "phone.validation.mixin"
+class MailThreadPhone(models.AbstractModel):
+    _inherit = "mail.thread.phone"
 
     def _phone_get_country(self):
         if "country_id" in self and self.country_id:

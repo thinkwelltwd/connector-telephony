@@ -5,7 +5,7 @@
 
 {
     "name": "Base Phone",
-    "version": "14.0.1.0.0",
+    "version": "15.0.1.0.0",
     "category": "Phone",
     "license": "AGPL-3",
     "summary": "Validate phone numbers",
@@ -23,6 +23,6 @@
         "wizard/number_not_found_view.xml",
         "views/web_phone.xml",
     ],
-    "qweb": ["static/src/xml/phone.xml"],
+    "qweb": ["base_phone/static/src/xml/phone.xml"],
     "installable": True,
 }

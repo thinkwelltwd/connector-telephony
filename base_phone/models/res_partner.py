@@ -11,7 +11,7 @@ class ResPartner(models.Model):
     # inherit on phone.validation.mixin (same as in crm_phone_validation,
     # but base_phone only depends on phone_validation,
     # not on crm_phone_validation)
-    _inherit = ["res.partner", "phone.validation.mixin"]
+    _inherit = ["res.partner", "mail.thread.phone"]
     _phone_name_sequence = 10
     _phone_name_fields = ["phone", "mobile"]
 
